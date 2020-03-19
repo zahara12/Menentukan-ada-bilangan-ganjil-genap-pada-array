@@ -5,6 +5,7 @@ void fungsi (int *);
 
 int main(){
 	int c,x=1;
+	cout<<" Masukan jumlah angka : ";
 	cin>>c;
 	int Array[c];
 	int *PArray;
