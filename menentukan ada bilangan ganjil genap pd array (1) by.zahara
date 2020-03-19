@@ -21,9 +21,9 @@ int main(){
 
 void fungsi(int *x){
 	if(*x==0){
-		cout<<"bil genap ada di array";
+		cout<<"Bilangan genap ada di array";
 	}
 	else{
-		cout<<"bil genap tdk ada di array";
+		cout<<"Bilangan genap tidak ada di array";
 	}
 }
