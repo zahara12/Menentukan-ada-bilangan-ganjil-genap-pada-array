@@ -6,10 +6,12 @@ void fungsi (int *);
 int main(){
 	int c,x=1;
 	cin>>c;
-	int array[c];
+	int Array[c];
+	int *PArray;
+	PArray=Array;
 	for(int i=0;i<c;i++){
-		cin>>array[i];
-		if(array[i]%2==0){
+		cin>>PArray[i];
+		if(PArray[i]%2==0){
 			x=0;
 		}
 	}
