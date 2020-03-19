@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+void fungsi (int *);
+
+int main(){
+	int a,x=1;
+	cin>>a;
+	int array[a];
+	for(int i=0;i<a;i++){
+		cin>>array[i];
+		if(array[i]%2==0){
+			x=0;
+		}
+	}
+	fungsi(&x);
+	
+}
+
+void fungsi(int *x){
+	if(*x==0){
+		cout<<"bil genap ada di array";
+	}
+	else{
+		cout<<"bil genap tdk ada di array";
+	}
+}
