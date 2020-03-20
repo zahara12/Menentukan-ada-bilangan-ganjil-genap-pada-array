@@ -22,9 +22,9 @@ int main(){
 		cin>>PArray[i];
 	}
 	
-	for(int i=0;i<c;i++){
-	if(PArray[i]%2==0){
-	cout<<" Angka "<<PArray[i]<<" pada indeks ke-"<<i<<" adalah bilangan genap "<<endl;
+	for(int j=0;j<c;j++){
+	if(PArray[j]%2==0){
+	cout<<" Angka "<<PArray[j]<<" pada indeks ke-"<<j<<" adalah bilangan genap "<<endl;
 		X=1;
 		}
 	}
