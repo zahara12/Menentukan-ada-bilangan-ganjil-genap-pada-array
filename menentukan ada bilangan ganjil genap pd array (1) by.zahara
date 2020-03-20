@@ -19,13 +19,13 @@ int main(){
 	
 	for(int i=0;i<c;i++){
 	cout<<" Masukan Angka: ";
-		cin>>PArray[i];
+	cin>>PArray[i];
 	}
 	
 	for(int j=0;j<c;j++){
 	if(PArray[j]%2==0){
 	cout<<" Angka "<<PArray[j]<<" Pada Indeks Ke-"<<j<<" Adalah Bilangan Genap "<<endl;
-		X=1;
+	X=1;
 		}
 	}
 	
@@ -35,6 +35,6 @@ int main(){
 
 void fungsi(int *X){
 	if(*X==0){
-		cout<<" Tidak Terdapat Bilangan Genap Di Array "<<endl;
+	cout<<" Tidak Terdapat Bilangan Genap Di Array "<<endl;
 	}
 }
