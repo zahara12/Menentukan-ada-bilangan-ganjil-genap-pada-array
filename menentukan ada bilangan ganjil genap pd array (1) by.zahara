@@ -4,28 +4,33 @@ using namespace std;
 void fungsi (int *);
 
 int main(){
-	int c,x=1;
+	int c,X=0;
 	cout<<" Masukan jumlah angka : ";
 	cin>>c;
 	int Array[c];
 	int *PArray;
+	int *PX;
+	PX=&X;
 	PArray=Array;
+	
 	for(int i=0;i<c;i++){
 	cout<<" Masukan Angka: ";
 		cin>>PArray[i];
-		if(PArray[i]%2==0){
-			x=0;
+	}
+	
+	for(int i=0;i<c;i++){
+	if(PArray[i]%2==0){
+	cout<<"Angka "<<PArray[i]<<" pada indeks ke "<<i<<" adalah bilangan genap"<<endl;
+		X=1;
 		}
 	}
-	fungsi(&x);
+	
+	fungsi(&X);
 	
 }
 
-void fungsi(int *x){
-	if(*x==0){
-		cout<<"Bilangan genap ada di array";
-	}
-	else{
-		cout<<"Bilangan genap tidak ada di array";
+void fungsi(int *X){
+	if(*X==0){
+		cout<<"tidak ada bil genap di array"<<endl;
 	}
 }
