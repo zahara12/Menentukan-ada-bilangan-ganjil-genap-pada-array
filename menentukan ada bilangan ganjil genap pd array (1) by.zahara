@@ -35,6 +35,6 @@ int main(){
 
 void fungsi(int *X){
 	if(*X==0){
-		cout<<" Tidak ada bilangan genap di array "<<endl;
+		cout<<" Tidak terdapat bilangan genap di array "<<endl;
 	}
 }
