@@ -24,7 +24,7 @@ int main(){
 	
 	for(int j=0;j<c;j++){
 	if(PArray[j]%2==0){
-	cout<<" Angka "<<PArray[j]<<" pada indeks ke-"<<j<<" adalah bilangan genap "<<endl;
+	cout<<" Angka "<<PArray[j]<<" Pada Indeks Ke-"<<j<<" Adalah Bilangan Genap "<<endl;
 		X=1;
 		}
 	}
