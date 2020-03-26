@@ -6,7 +6,7 @@ void fungsi (int *);
 int main(){
 	int c,X=0;
 	cout<<" Program Menentukan Bilangan Ganjil-Genap Pada Array\nNOTE: Program Ini Bisa Menampilkan Bilangan Genap Pada Array Dan Pada Indeks Array Ke Berapa "<<endl;
-	cout<<" BY:\n1. Olivia Desti Riana (1917051044)\n2. Salsabilla Julia Farhana (1917051004)\n3. Zahara Liza Mulyani (1917051028)\nKELAS B "<<endl;
+	cout<<" BY:\n1. Olivia Desti Riana ( 1917051044 )\n2. Salsabilla Julia Farhana (1917051004)\n3. Zahara Liza Mulyani (1917051028)\nKELAS B "<<endl;
 	cout<<"_____________________________________________________________"<<endl;
 	cout<<" Masukan Jumlah Angka Yang Diinginkan : ";
 	cin>>c;
